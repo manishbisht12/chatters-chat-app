@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'http://localhost:3000',
+        target:'https://chatters-chat-app-f6ac.onrender.com/',
         secure:false,
       }
     }
